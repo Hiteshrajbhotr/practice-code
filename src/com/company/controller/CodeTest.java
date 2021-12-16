@@ -10,8 +10,11 @@ public class CodeTest {
         System.out.println("Enter Two number:");
         int a = scanner.nextInt();
         int b = scanner.nextInt();
+        System.out.println("Subtract result: "+ subtractTwoNum(a,b));
+    }
 
-        int c = a+b;
-        System.out.println("Add upto: "+ c);
+    public static int subtractTwoNum(int a,int b){
+        int c = a-b;
+        return c;
     }
 }
